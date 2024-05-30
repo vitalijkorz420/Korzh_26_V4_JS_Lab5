@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cart</h2>
+        <hr>
+        <div class="cart-item" data-id="1">
+          <img src="img/_image1.jpg" alt="AirPods Max">
+          <div class="item-details">
+            <p>AirPods Max <br> Sky Blue</p>
+          </div>
+          <div class="item-quantity">
+            <button class="quantity-btn decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="quantity-btn increase">+</button>  
+          </div>
+          <span class="item-price">$549.00</span>
+          <button class="remove-btn">🗑️</button>
+        </div>
+        <div class="cart-item" data-id="2">
+          <img src="img/_image2.jpg" alt="MacBook Pro 14">
+          <div class="item-details">
+            <p>MacBook Pro 14 <br> Space Gray | 32GB | 1TB</p>
+          </div>
+          <div class="item-quantity">
+            <button class="quantity-btn decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="quantity-btn increase">+</button>  
+          </div>
+          <span class="item-price">$2599.00</span>
+          <button class="remove-btn">🗑️</button>
+        </div>
+        <div class="cart-item" data-id="3">
+          <img src="img/_image3.jpg" alt="iPad Air">
+          <div class="item-details">
+            <p>iPad Air <br> Pink | 256GB | Cellular</p>
+          </div>
+          <div class="item-quantity">
+            <button class="quantity-btn decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="quantity-btn increase">+</button>  
+          </div>
+          <span class="item-price">$899.00</span>
+          <button class="remove-btn">🗑️</button>
+        </div>
+        <div class="cart-item" data-id="4">
+          <img src="img/_image4.jpg" alt="iPhone 13 Pro Max">
+          <div class="item-details">
+            <p>iPhone 13 Pro Max <br> Alpine Green | 1TB</p>
+          </div>
+          <div class="item-quantity">
+            <button class="quantity-btn decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="quantity-btn increase">+</button>  
+          </div>
+          <span class="item-price">$1599.00</span>
+          <button class="remove-btn">🗑️</button>
+        </div>
+        <hr>
+        <div class="checkout">
+          <div class="promo-code">
+            <input type="text" placeholder="Promocode">
+            <button type="button">Apply</button>
+            <div class="discount-text">20%-off discount</div>
+          </div>
+          <hr>
+          <div class="total-line">
+            <div class="label">Subtotal:</div>
+            <div class="value" id="subtotal">$5646.00</div>
+          </div>
+          <div class="total-line">
+            <div class="label">Discount</div>
+            <div class="value" id="discount">(20%) - $1129.20</div>
+          </div>
+          <div class="total-line">
+            <div class="label">Tax:</div>
+            <div class="value" id="tax">$225.84</div>
+          </div>
+          <hr>
+          <div class="total-line">
+            <div class="label">Total:</div>
+            <div class="value" id="total">$4742.64</div>
+          </div>
+          <button type="button" style="background-color: blue; color: #fff;">Proceed to checkout</button>
+          <button type="button" style="background-color: rgb(233, 233, 243); color: #030000; border: 2px solid #ccc;">Continue shopping</button>
+        </div>
+      </div>
+    <script src="js/task1.js"></script>
+</body>
+</html>
